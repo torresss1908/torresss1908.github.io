@@ -1,0 +1,74 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+#icon {
+    margin-left: 5%;
+}
+
+#fondo {
+    height: 100vh;
+    background-image: url(fondo_div1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#cara {
+    border-radius: 50%;
+    border: 3px solid;
+    border-color: white;
+
+}
+
+p {
+    color: white;
+}
+
+#formacion {
+    display: none;
+}
+
+#formacionTitulo {
+    border: 2px solid #fff;
+    padding: 7px;
+    border-radius: 25px;
+}
+
+#experienciaTitulo {
+    border: 2px solid #fff;
+    padding: 7px;
+    border-radius: 25px;
+    background-color: #fff;
+    color: black;
+}
+
+li {
+    margin: 20px;
+}
+
+#listaUl {
+    user-select: none;
+    cursor: pointer;
+}
+section{
+    display: flex;
+    width: 600px;
+    height: 440px;
+}
+section img{
+    width:0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
